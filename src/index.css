@@ -1,0 +1,169 @@
+body{
+  background-color: grey;
+  background-image: url(../src/img/interier.jpg);
+  
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  margin-top: 1%;
+  color: white;
+}
+
+.todo{
+  display:flex;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+ /* css del primer activity */
+.ingredientes{
+  font-size: 20px;
+  width: 120%;
+  overflow-y: scroll;
+  max-height:900px;
+  overflow-x:hidden;
+
+  flex: 2;
+}
+
+.ingredientes_caja{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.ingred{
+  margin: 3px;
+  padding: 2px;
+  margin: 5px;
+}
+
+.coctelera{
+  background-image: url(../src/img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size:contain;
+
+  flex: 1;
+
+  align-items: center;
+}
+
+.seleccionados{
+  margin-top: 20%;
+  font-size: 30px;
+}
+
+.seleccionados li{
+  display: block;
+}
+
+ul{
+  height: 84%;
+}
+
+.hover_dragable:hover{
+  background-color: #dadada;
+  color: black;
+}
+
+.li_selec{
+  text-align: center;
+}
+
+.li_selec:hover{
+  background-color: #dadada;
+  color: black;
+}
+
+.botones{
+  width: 100%;
+  position: relative;
+}
+
+.mezclar{
+  background-color: #6e2e1e;
+  width: 50%;
+}
+
+.limpiar{
+  background-color: #313681;
+  width: 50%;
+}
+
+ /* css del segundo activity */
+
+.salir{
+  z-index: 2;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(158, 82, 154);
+}
+
+.ind_cock{
+  background-color: grey;
+  width: 50%;
+  margin: 3%;
+  
+  text-align: center;
+}
+
+.h1_titulo{
+  background-color: black;
+}
+
+img{
+  margin: 10px;
+  width: 50%;
+  border-radius: 10%;
+}
+
+.boton_cock{
+  width: 100%;
+}
+
+.cocteles{
+  display: grid;
+  margin: 20px;
+  grid-template-columns: 1fr 1fr ;
+}
+
+.detalles_ing {
+  background-color: #6c757d;
+}
+
+.titulo{
+  text-align: center;
+}
+
+.nombre{
+  font-size: 30px;
+  padding: 5px;
+  background-color: #3f3f3f;
+}
+
+.ul_detalles{
+  padding: 2px;
+  width: 100%;
+  align-items: center;
+  color: black;
+}
+
+.ingredientes_indi{
+  display: block;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+section{
+  color: black;
+  text-align: center;
+  margin: 2px;
+  padding: 2px;
+  font-size: 20px;
+  word-break:keep-all;
+}
